@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+:root{
+    --bg-color: #ffffff;
+    --text-color:#000;
+    --second-color:#ao9dab;
+    --main-color:#f75023;
+    --big-font:5rem;
+    --h2-font:2.3rem;
+    --p-font:1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+section{
+    padding: 100px 18%;
+}
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    align-items: center;
+}
+
+.why{
+    min-height: 200vh;
+    height: 100%;
+    width: 100%;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    align-items: center;
+}
+.home-text h1{
+    margin: 10px 0px 25px;
+    font-size: var(--big-font);
+    line-height: 1;
+    font-weight: 500;
+}
+.home-text h5{
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 500;
+}
+span{
+    color: var(--main-color);
+}
+.home-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-text p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: var(--bg-color);
+    transition: .40s;
+}
+.home-img img{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+}
+

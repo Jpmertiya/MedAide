@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+</style>
+
+<script rel="script/text">
+function deleteUser(userId) {
+  // This is just a dummy function for demonstration.
+  // In a real application, you would call an API to delete the user from the backend and update the UI accordingly.
+  if (confirm("Are you sure you want to delete this user?")) {
+    const row = document.querySelector(`tr[data-user="${userId}"]`);
+    row.remove();
+  }
+}
+
+</script>
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+  </header>
+  <main>
+    <table>
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>user1</td>
+        <td>user1@example.com</td>
+        <td><button class="delete-btn" onclick="deleteUser(1)">Delete</button></td>
+      </tr>
+      <tr>
+        <td>user2</td>
+        <td>user2@example.com</td>
+        <td><button class="delete-btn" onclick="deleteUser(2)">Delete</button></td>
+      </tr>
+      <!-- Add more user rows here -->
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

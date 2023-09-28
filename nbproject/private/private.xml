@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>web/servicetaker_loginPage.jsp</url>
+            <bookmark id="2">
+                <name/>
+                <line>1000</line>
+                <key/>
+            </bookmark>
+            <bookmark id="1">
+                <name/>
+                <line>1172</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/service_provider_servlet.java</file>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/serviceTaker_loginServlet.java</file>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/serviceProvider_loginServlet.java</file>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/service_taker_servlet.java</file>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/editServiceTakerServlet.java</file>
+            <file>file:/D:/SixthSEM/MedHelp/src/java/Servlet/notificationMessage_save.java</file>
+        </group>
+    </open-files>
+</project-private>
